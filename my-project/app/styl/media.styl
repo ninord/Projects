@@ -1,0 +1,25 @@
+@media (max-width: 1300px)
+	body	
+		height: auto
+	.cat__wrapper
+		flex-flow row wrap
+		gap 0
+		row-gap 4vh
+	.cat__block
+		margin auto
+		&:nth-child(1)
+			flex 0 0 100%
+		&:nth-child(2)
+			flex 0 0 50%
+		&:nth-child(3)
+			flex 0 0 50%
+
+@media (max-width: 950px)
+	.cat__block
+		&:nth-child(2)
+			flex 0 0 100%
+		&:nth-child(3)
+			flex 0 0 100%
+	.cat__wrapper
+		row-gap 6vh
+		
