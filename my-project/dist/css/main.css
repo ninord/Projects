@@ -79,7 +79,7 @@ h2 span {
   width: 320px;
   max-width: 320px;
   margin: auto;
-  height: 480px;
+  height: auto;
 }
 .cat-food__block {
   padding-left: 45px;
