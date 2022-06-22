@@ -242,4 +242,41 @@ h2 span {
     row-gap: 6vh;
   }
 }
-/*@import poligon*/
+/*.cat-food {
+  -webkit-clip-path: polygon(14.8% 0, 100% 0, 100% 100%, 0 100%, 0 9%);
+  clip-path: polygon(14.8% 0, 100% 0, 100% 100%, 0 100%, 0 9%);
+  position: relative;
+}
+.cat-food:before {
+  content: '';
+  position: absolute;
+  background-color: #1698d9;
+  width: 4px;
+  height: 67px;
+  transform: rotate(48deg);
+  top: -12px;
+  left: 25px;
+  z-index: 1;
+}
+.cat-food.disabled:before {
+  content: '';
+  position: absolute;
+  background-color: #b3b3b3;
+  width: 4px;
+  height: 67px;
+  transform: rotate(48deg);
+  top: -12px;
+  left: 25px;
+  z-index: 1;
+}
+.cat-food.selected:before {
+  content: '';
+  position: absolute;
+  background-color: #d91667;
+  width: 4px;
+  height: 67px;
+  transform: rotate(48deg);
+  top: -12px;
+  left: 25px;
+  z-index: 1;
+}*/
